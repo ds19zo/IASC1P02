@@ -1,0 +1,25 @@
+body{
+  margin: 150px;
+  background-color: blue;
+  background-position: center;
+  border-style: solid;
+  border
+}
+
+p.para{
+  padding: 5px;
+  font-family: sans-serif;
+  color: red;
+  border-style: dashed;
+  border-color: green;
+  border-width: 2px;
+  margin:15px;
+
+}
+
+img{
+  border-style: dashed;
+  border-color: green;
+  border-width: 2px;
+  padding:12px;
+}
