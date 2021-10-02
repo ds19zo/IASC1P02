@@ -1,0 +1,25 @@
+body{
+  background-color: green;
+}
+
+.box{
+  border-style: dashed;
+  border-width: 3px;
+  padding:5px;
+}
+
+p.first{
+  color: red;
+}
+
+p.second{
+  color: #006a00
+}
+
+.Third{
+  color: purple;
+  position: relative;
+  text-align: left;
+  right: 16px;
+  padding: 10px;
+}
