@@ -68,8 +68,11 @@ left: 25px;
 position:relative;
 }
 
-#Search li{
+#Search p{
  font-size: 20px;
+ text-align: left;
+ position: relative;
+ left: 40px;
 }
 
 #F1{
