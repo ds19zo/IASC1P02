@@ -1,0 +1,172 @@
+body {
+  background-color: white;
+}
+
+#top{
+  margin: auto;
+  width: 1200px;
+  border: white 5px solid;
+  border-radius: 10px;
+  background-color: #35f28a
+}
+
+#top h2{
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  bottom: 30px;
+}
+
+#top p{
+  text-align:left ;
+  font-size: 30px;
+  position: relative;
+  left: 45px;
+  top: 40px;
+}
+
+#middle {
+  margin: auto;
+  height: 80px;
+  width: 1200px;
+  border: white 5px solid;
+  border-radius: 10px;
+  background-color: #35f28a
+}
+
+#middle h2{
+  width: 160px;
+  background-color: red;
+  border: black 2px solid;
+  border-radius: 10px;
+  text-align:left ;
+  font-size: 30px;
+  position: relative;
+  left: 45px;
+  top: 0px;
+}
+#middle h3{
+  position:relative;
+   text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: 85px;
+}
+
+#Search{
+  float: left;
+  position: relative;
+  left: 155px;
+  width: 300px;
+  border: white 5px solid;
+  border-radius: 10px;
+  background-color: #35f28a;
+}
+
+#Search h1{
+left: 25px;
+position:relative;
+}
+
+#Search li{
+ font-size: 20px;
+}
+
+#F1{
+  width: 440px;
+  position: relative;
+  float: left;
+  left: 155px;
+  border: white 5px solid;
+  border-radius: 10px;
+  background-color: #35f28a;
+  height: 150px;
+
+}
+#F1 h2{
+  text-align:center ;
+  font-size: 30px;
+  position: relative;
+}
+
+#F1 h3{
+  text-align: center;
+  width: 150px;
+  background-color: red;
+  border: black 2px solid;
+  border-radius: 10px;
+  margin: auto;
+
+}
+
+#F2{
+  width: 440px;
+  position: relative;
+  float: left;
+  height: 150px;
+  left: 155px;
+  border: white 5px solid;
+  border-radius: 10px;
+  background-color: #35f28a;
+}
+
+#F2 h2{
+  text-align:center ;
+  font-size: 30px;
+  position: relative;
+}
+
+#F2 h3{
+  text-align: center;
+  width: 150px;
+  margin: auto;
+  position: relative;
+  background-color: red;
+  border: black 2px solid;
+  border-radius: 10px;
+}
+
+#F3{
+  width: 440px;
+  position: relative;
+  float: right;
+  right: 400px;
+  height: 150px;
+  text-align: center;
+  border: white 5px solid;
+  border-radius: 10px;
+  background-color: #35f28a;
+}
+
+#F3 h2{
+  text-align:center ;
+  font-size: 30px;
+  position: relative;
+}
+
+#F3 h3{
+  text-align: center;
+  width: 150px;
+  margin: auto;
+  position: relative;
+  background-color: red;
+  border: black 2px solid;
+  border-radius: 10px;
+}
+
+
+#Foot{
+  font-size: 20px;
+  height: 80px;
+  margin: auto;
+  text-align: center;
+  clear: both;
+  width: 1200px;
+  border: white 5px solid;
+  border-radius: 10px;
+  background-color: #35f28a
+}
+
+#Foot p{
+  text-align: left;
+}
