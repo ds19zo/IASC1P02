@@ -1,5 +1,6 @@
 function Add(){
-  var first = Number(document.getElementByName('Num1').value);
-  var second = Number(document.getElementByName("Num2").value);
-  document.getElementById("output").innerHTML = first + second;
+  var first = document.getElementById("Num1");
+  var second = document.getElementById("Num2");
+  var output = first + second;
+  document.getElementById("output").innerHTML = output;
 }
