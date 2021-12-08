@@ -1,0 +1,187 @@
+Body{
+  /*https://www.w3schools.com/css/css3_gradients.asp Dec 4th 2021*/
+  background-image: linear-gradient(#e50914, #f5f5f1);
+}
+#clock{
+  font-size: 25px;
+  color: black;
+  display: flex;
+  font-family: monospace;
+}
+
+.header h1{
+  position: relative;
+  left: 20px;
+}
+header{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #747678;
+}
+
+.Header img{
+  margin-top:-30px;
+  Float:right;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav Dec 4th 2021*/
+.NavBar ul{
+  text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #747678;
+  font-size: 17px;
+
+}
+
+li{
+
+  display: inline-block;
+  transition: .3s ease-in;
+}
+
+li a{
+
+  float: left;
+  color: #E6E2DD;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+
+}
+
+li:hover {
+  background-color: red;
+  color: #747678;
+}
+
+li.active {
+  background-color: blue;
+  color: purple;
+}
+
+.Brock img {
+  float: left;
+}
+.Western img {
+  float: right;
+}
+
+.Statement{
+  text-align: center;
+  font-family: candara;
+  color: red;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  font-size: 30px;
+}
+
+.Whyus{
+  position: relative;
+  text-align: center;
+  top: 100px;
+  font-size: 30px;
+  font-family: calibri;
+  color: red;
+}
+
+.ship img{
+  position: relative;
+  top: 98px;
+  left: 150px;
+}
+
+.ship h3{
+  position: relative;
+  top: 40px;
+  left: 220px;
+  font-size: 20px;
+  font-family: calibri;
+  color: red;
+
+}
+
+.shipping{
+  position: relative;
+  text-align: justify;
+  width: 210px;
+  word-wrap: break-word;
+  float: left;
+  top: 25px;
+  left: 150px;
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: calibri;
+  color: red;
+}
+
+
+.Quali p{
+  position: relative;
+  top: -17px;
+  left: -100px;
+  text-align: center;
+}
+
+
+.Quali h3{
+  text-align: center;
+  top: -76px;
+  left: -25px;
+  position: relative;
+  font-size: 20px;
+  font-family: calibri;
+  color: red;
+}
+
+.Quality{
+  left:740px;
+  width: 200px;
+  text-align: justify;
+  top: -76px;
+  position: relative;
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: calibri;
+  color: red;
+}
+
+.Supp p{
+  position: relative;
+  text-align: right;
+  top: -205px;
+  right: 240px;
+}
+
+.Supp h3{
+  text-align: right;
+  position: relative;
+  top: -262px;
+  right: 160px;
+  font-size: 20px;
+  font-family: calibri;
+  color: red;
+
+}
+
+.Support{
+  position: relative;
+  text-align: justify;
+  width: 210px;
+  word-wrap: break-word;
+  float: right;
+  top: -275px;
+  right: 80px;
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: calibri;
+  color: red;
+}

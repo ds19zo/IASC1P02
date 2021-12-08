@@ -1,0 +1,310 @@
+Body{
+  /*https://www.w3schools.com/css/css3_gradients.asp Dec 4th 2021*/
+  background-image: linear-gradient(#e50914, #f5f5f1);
+}
+#clock{
+  font-size: 25px;
+  color: black;
+  display: flex;
+  font-family: monospace;
+}
+
+.header h1{
+  position: relative;
+  left: 20px;
+}
+header{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #747678;
+}
+
+.Header img{
+  margin-top:-30px;
+  Float:right;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav Dec 4th 2021*/
+.NavBar ul{
+  text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #747678;
+  font-size: 17px;
+
+}
+
+li{
+
+  display: inline-block;
+  transition: .3s ease-in;
+}
+
+li a{
+
+  float: left;
+  color: #E6E2DD;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+
+}
+
+li:hover {
+  background-color: red;
+  color: #747678;
+}
+
+li.active {
+  background-color: blue;
+  color: purple;
+}
+
+/*https://www.w3schools.com/howto/howto_css_flip_box.asp Dec7th 2021*/
+
+/*FlipBox for First set*/
+.flipboxone {
+  float: left;
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.inside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipboxone:hover .inside {
+  transform: rotateY(180deg);
+}
+
+.Front, .Back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.Front {
+  background-image: linear-gradient(#e50914, #f5f5f1);
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.Front h2{
+  position: relative;
+  top: 50px;
+}
+
+.Back {
+  background-image: linear-gradient(#747678, #e50914);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.Back p{
+  font-size: 17px;
+  position: relative;
+  top: 50px;
+  font-family: calibri;
+}
+
+/*FlipBox for Second set*/
+
+.flipbox {
+  float: right;
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.inside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipbox:hover .inside {
+  transform: rotateY(180deg);
+}
+
+.Front, .Back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.Front {
+  background-image: linear-gradient(#e50914, #f5f5f1);
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.Front h2{
+  position: relative;
+  top: 50px;
+}
+
+.Back {
+  background-image: linear-gradient(#747678, #e50914);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.Back p{
+  font-size: 17px;
+  position: relative;
+  top: 50px;
+  font-family: calibri;
+}
+
+/*FlipBox for third set*/
+.flipboxthree {
+  top: 250px;
+  position: relative;
+
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.inside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipboxthree:hover .inside {
+  transform: rotateY(180deg);
+}
+
+.Front, .Back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.Front {
+  background-image: linear-gradient(#e50914, #f5f5f1);
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.Front h2{
+  position: relative;
+  top: 50px;
+}
+
+.Back {
+  background-image: linear-gradient(#747678, #e50914);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.Back p{
+  font-size: 17px;
+  position: relative;
+  top: 50px;
+  font-family: calibri;
+}
+
+
+
+
+/*FlipBox for Fourth set*/
+.flipboxfour {
+  top: 40px;
+  display: block;
+  margin-left: auto;
+  position: relative;
+
+  background-color: transparent;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.inside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipboxfour:hover .inside {
+  transform: rotateY(180deg);
+}
+
+.Front, .Back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.Front {
+  background-image: linear-gradient(#e50914, #f5f5f1);
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.Front h2{
+  position: relative;
+  top: 50px;
+}
+
+.Back {
+  background-image: linear-gradient(#747678, #e50914);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.Back p{
+  font-size: 17px;
+  position: relative;
+  top: 50px;
+  font-family: calibri;
+}
+
+
+.Logo img{
+  position: relative;
+  top: -300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
